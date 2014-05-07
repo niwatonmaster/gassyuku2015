@@ -1,82 +1,122 @@
 \documentclass[11pt,a4paper]{jarticle}
 \usepackage[dvips]{graphicx}
 
-\title{{チーム研究\\触覚入力に関する論文のサーベイ}}
-\date{2014年5月2日(金)}
-\author{川畑 裕也}
+\title{{チーム研究\\実験計画、サーベイ報告}}
+\date{2014年5月9日(金)}
+\author{小森谷 大介、川畑 裕也、深津 佳智}
 
 \begin{document}
 
 \maketitle
-\section{}
-\subsection{使用論文}
-I Feel it in my Fingers: Haptic Guidance on Touch Surfaces
 
-(TEI 2014 Simone Zimmermann,Sonja Rumelin,Andreas Butz)
+%1
+\section{概要}
+今年度、触入班では、以下の2つの方針を考えている。
+\begin{itemize}
+	\item 昨年度の研究から得た知見を基に、背面に突起もしくはくぼみを付けた新たなケースのデザインを考える。
+	\item ``携帯情報端末''、``触覚''、``入力''をキーワードとして、昨年度の研究の発展案を考える。
+\end{itemize}
+本進捗資料においては、後者の発展案を述べる。
+具体的には、スマートフォンの表面（タッチパネル）に突起を付けることにより、ユーザがタッチパネルにタッチする際の手がかりとするという発展案を考えた。
+作成したプロトタイプ、及び、実験計画について報告する。
 
-\subsection{概要}
+%2
+\section{プロトタイプ}
+%作ったプロトタイプ（ビーズを付けたフィルム）の写真を載せるといいと思う！
+
+%3
+\section{実験計画}
+作成したプロトタイプを用いて、昨年度のソフトウェア科学会大会投稿時の実験と同様の実験を行うことを考えている。
+具体的には、
+\begin{itemize}
+	\item フィルム条件：フィルム無し条件、フィルムA条件、フィルムB条件
+	\item タッチ条件：開始点タッチ条件、終了点タッチ条件
+	\item 分割条件：3~$\times$~3分割条件、4~$\times$~4分割条件、5~$\times$~5分割条件
+\end{itemize}
+の3種類の実験条件を設定し、被験者にアイズフリーにおいてタッチパネル上のターゲットをタッチしてもらう実験を行うことを考えている。
+昨年度の実験と今回の実験計画の相違点は、ケース条件であったところをフィルム条件に変えた点である。
+表面に付いている突起をタッチの手がかりとできるので、特に、終了点タッチ条件の際のタッチ精度向上が望める（昨年度の実験では、開始点タッチ条件と終了点タッチ条件のタッチ精度に有意差は見られなかった）。
+
+%4
+\section{サーベイ}
+主に、タッチパネルの表面に工夫を施した研究をサーベイした。
+これらのサーベイを報告する。
+
+%4.1
+\subsection{I Feel it in my Fingers: Haptic Guidance on Touch Surfaces\cite{Zimmermann:2014}}
+\subsubsection{概要}
 運転中に視覚を用いない操作を行うために、4つのシリコン箔をタブレットデバイスの表面に貼り付け触覚ガイダンスとし、車載アプリケーションのプロトタイプを作成した。
 
-\subsection{実験機器}
+\subsubsection{実験機器}
 触覚ガイダンスとして、初期のプロトタイプにおいては紙を使用したがタッチを感知することができなかったため、シリコン箔を使用することとした。シリコン箔(厚さ0.5mm)を真空吸着とテープの2つを用いてタブレットの表面に貼付けた。シリコン箔には縁をホイルを用いて覆ったものとそうでないものの2種類を作成した。
 実験にはAndroidを搭載したAsus製のEee Padを使用した。
 シリコン箔は伝統的にボタンが配置されている位置と、ユーザが任意に決めた位置の2種類の配置を行った。
 
-\subsection{実験}
+\subsubsection{実験}
 評価には2種類のシリコン箔の配置とタッチ方法と縁のあるなし、そして2種類の触り方についてのテストを行った。被験者は20歳から40歳の12人の学生と博士とした。
 
 実験のタスクは各手法のシンボルをランダムな順序に並べた16個のシンボルを選ぶことである。全ての被験者は実行例を含む導入フェーズのあと実験に入った。それぞれのシンボルについて正解がタッチできたかを音声によって発表し、正解した場合は3秒後に次のシンボルへ移行した。
 
-
-\subsection{結果}
+\subsubsection{結果}
 すべての参加者が触覚からボタンを発見し、画面を見ることなく操作を行うことができた。シリコン箔の縁についても明確に区別をできた。
 
 ユーザが任意に決めた位置にシリコン箔を置くことはボタンの位置に固定することよりもエラーが少なく、視線を向けることが少ないことがわかった。被験者の手のサイズに合わせてシリコン箔を設置することができることは被験者は好きであった。
 
 被験者のアンケートと実行時間からユーザが任意に決めた位置にシリコン箔を設置しドラックすることがもっとも良い評価と実行時間を得られることがわかった。
 
-
-
-
-
-\section{}
-
-\subsection{使用論文}
-BackTap: robust four-point tapping on the back of an off-the-shelf smartphone
-
-(UIST 2013 Cheng Zhang,Aman Parnami,Caleb Southern,Edison Thomaz,Gabriel Reyes.Rosa Arriaga,Gregory)
-
-\subsection{概要}
+%4.2
+\subsection{BackTap: robust four-point tapping on the back of an off-the-shelf smartphone\cite{Zhang:2013}}
+\subsubsection{概要}
 スマートフォンの背面ケースに4つの異なるタッチパネルを追加する入力方式を提示する。これにより歩きながら、または画面を押さえながら目を向けることなくスマートフォンの操作をすることが出来る。
 本手法においてはスマートフォンに組み込まれたマイク、ジャイロスコープ、加速度計の3つのセンサを使用して軽い実装を実現した。
 
-\subsection{実装と考察}
+\subsubsection{実装と考察}
 スマートフォンの3つの組み込みのセンサから得られたデータを組み合わせて背面のタップを検知することとした。初期においては加速度のみを使用していたが試行錯誤の末に3つのデータをすべて使用しなければタップを検知できないことがわかった。また、モーションごとにパラメータの変更が必要なことがわかったため機械学習の使用も考慮したいと考えている。
 
-\section{}
-
-\subsection{使用論文}
-Tactile Rendering of 3D Features on Touch Surfaces
-
-(UIST 2013 Seung-Chan Kim1,2 , Ali Israr1, Ivan Poupyrev1)
-
-\subsection{概要}
+%4.3
+\subsection{Tactile Rendering of 3D Features on Touch Surfaces\cite{Kim:2013}}
+\subsubsection{概要}
 タッチスクリーンに幾何学的な特徴をシュミレートするための触覚レンダリングを示す。これは、物理的に動かすのではなく、ユーザの指とタッチスクリーンの間の摩擦を調整することによってシュミレートを行う。
 
-\subsection{摩擦フィードバック}
+\subsubsection{摩擦フィードバック}
 摩擦の知覚モデルとしてディスプレイに加圧される電圧の関数を定式化する。摩擦の知覚レベルを調節し、複雑な3Dオブジェクトのための触覚フィードバックを行うためにこのモデルを利用する。触覚フィードバックについては先行研究に基づく。
 
-
-\subsection{実験}
+\subsubsection{実験}
 先行研究の触覚の一般的な制御方式と今回の摩擦レンダリングの手法との比較実験を行う。パネル上に電圧の周波数と振幅を検知するトランジスタの回路と静電容量パネルを取り付けて構成された実験機を用いる。
 
 実験は6人の男性を被験者とし、被験者は人差し指でタッチパネルをなぞり、自由に動かした。その後主観的な摩擦強度を0から100までの番号を割り当てた。
 
 被験者には10Hzずつに等間隔に110~220Hzの摩擦レベルをランダムに30回出現させた。実験前に被験者は評価尺度と導入の説明を受け、環境とデバイスのノイズを遮断するためイヤーマフを身につけた。
 
-
-\subsection{結果}
+\subsubsection{結果}
 結果を分析したところ、周波数は結果に明確な関係はなく、フィードバックを行う幅と高さの分散が有意であることがわかった。
 
+%4.4
+\subsection{小森谷氏の1本目}
+%小森谷氏ゾーン
 
+%4.5
+\subsection{小森谷氏の2本目}
+%小森谷氏ゾーン
+
+%4.6
+\subsection{小森谷氏の3本目}
+%小森谷氏ゾーン
+
+%4.7
+\subsection{PhotoelasticTouch: Transparent Rubbery Tangible Interface Using an LCD and Photoelasticity\cite{Sato:2009}}
+
+%4.8
+\subsection{FingerFlux: Near-surface Haptic Feedback on Tabletops\cite{Weiss:2011}}
+
+%4.9
+\subsection{LiquiTouch: Liquid As a Medium for Versatile Tactile Feedback on Touch Surfaces\cite{Richter:2013}}
+
+
+%5
+\section{今後の予定}
+%研究会とかHCIIとか書いておけば良いかと
+
+\bibliographystyle{jalpha}
+\bibliography{shokunyu}
 \end{document}
