@@ -1,6 +1,5 @@
 \documentclass[11pt,a4paper]{jarticle}
 \usepackage[dvips]{graphicx}
-\usepackage{here}
 
 \title{{チーム研究\\実験計画、サーベイ報告}}
 \date{2014年5月9日(金)}
@@ -23,21 +22,7 @@
 
 %2
 \section{プロトタイプ}
-
-
 %作ったプロトタイプ（ビーズを付けたフィルム）の写真を載せるといいと思う！
-\begin{figure}[H]
-\begin{minipage}{0.5\hsize}
-  \includegraphics[width=3cm]{fig/figure4.eps}
-  \caption{フィルムA}
-\end{minipage}
-%\end{figure}
-%\begin{figure}
-\begin{minipage}{0.5\hsize}
-  \includegraphics[width=3cm]{fig/figure5.eps}
-  \caption{フィルムB}
-\end{minipage}
-\end{figure}
 
 %3
 \section{実験計画}
@@ -62,7 +47,6 @@
 \subsubsection{概要}
 運転中に視覚を用いない操作を行うために、4つのシリコン箔をタブレットデバイスの表面に貼り付け触覚ガイダンスとし、車載アプリケーションのプロトタイプを作成した。
 
-
 \subsubsection{実験機器}
 触覚ガイダンスとして、初期のプロトタイプにおいては紙を使用したがタッチを感知することができなかったため、シリコン箔を使用することとした。シリコン箔(厚さ0.5mm)を真空吸着とテープの2つを用いてタブレットの表面に貼付けた。シリコン箔には縁をホイルを用いて覆ったものとそうでないものの2種類を作成した。
 実験にはAndroidを搭載したAsus製のEee Padを使用した。
@@ -79,15 +63,6 @@
 ユーザが任意に決めた位置にシリコン箔を置くことはボタンの位置に固定することよりもエラーが少なく、視線を向けることが少ないことがわかった。被験者の手のサイズに合わせてシリコン箔を設置することができることは被験者は好きであった。
 
 被験者のアンケートと実行時間からユーザが任意に決めた位置にシリコン箔を設置しドラックすることがもっとも良い評価と実行時間を得られることがわかった。
-
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=8cm]{fig/figure1.eps}
-  \caption{a:シリコン箔を貼り付けたタブレットb:実験の様子c:ユーザがボタンを任意の位置に決めた状態}
-  \label{fig:1_test}
-  \end{center}
-\end{figure}
-
 
 %4.2
 \subsection{BackTap: robust four-point tapping on the back of an off-the-shelf smartphone\cite{Zhang:2013}}
@@ -116,87 +91,27 @@
 \subsubsection{結果}
 結果を分析したところ、周波数は結果に明確な関係はなく、フィードバックを行う幅と高さの分散が有意であることがわかった。
 
-
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=8cm]{fig/figure2.eps}
-  \caption{摩擦フィードバックのイメージ図}
-  \label{fig:1_test}
-  \end{center}
-\end{figure}
-
 %4.4
-\subsection{Tactile Guides for Touch Screen Controls}
-\subsubsection{概要}
-タブレット端末に透明のガイドを乗せることにより触覚を提示する。このガイドはボタン、スライダ及びノブの形に切り抜かれている。
-
-\subsubsection{実験}
-ノブを二つ使用する。一つはx軸、一つはy軸を操作するものである。被験者はこの二つのノブを用いて画面上にある点を移動させる。被験者が点をターゲットまで移動させる時間を測定する。これを透明のガイドあり、なしの両方において測定し、時間を比較した。
-
-
-\subsubsection{結果と考察}
-結果はガイドありのほうが優位に早かった。ガイドを使用することによりボタン、スライダ及びノブの外形を判別することができるため素早く操作できる。
-またタブレット上において触覚フィードバックを付加する類似の研究としてタンジブルのアイディアが存在する。それと組み合わせることにより、より複雑かつ操作のしやすいものを構築できるのではないかと述べている。
+\subsection{小森谷氏の1本目}
+%小森谷氏ゾーン
 
 %4.5
-\subsection{Clip-on Gadgets: Expanding Multi-touch
-Interaction Area with Unpowered Tactile Controls}
+\subsection{小森谷氏の2本目}
 %小森谷氏ゾーン
-\subsubsection{概要}
-クリップのようにスマートフォン及びタブレット端末のベゼルにボタン及びキーパッドを装着する研究である。これによりタッチパネルをフィジカルコントローラにより拡張できる。
-
-
-\subsubsection{考察}
-割とタンジブル寄りの研究である。被験者実験は行っていない。
-
 
 %4.6
-\subsection{Touchplates: Low-Cost Tactile Overlays for Visually
-Impaired Touch Screen Users}
+\subsection{小森谷氏の3本目}
 %小森谷氏ゾーン
-\subsubsection{概要}
-アクリルの板をキーボード、テンキーパッド、リング、ウィンドウなどの形に切り取ったものをFTIR方式のタッチパネルの上に置いて利用する研究である。
-従来のタッチパネルには触覚フィードバックが不足しているという問題を補うために、その形に切り取ったアクリルと置くことで静的な触覚フィードバックを提供することができる。
-\subsubsection{アンケートと考察}
-どのTouchplateが良いかというアンケート調査を行っており、マップ及びトークンが1位、次いでキーボードという結果になっている。また、マウスが一番不評であった。
-
-将来的には触覚フィードバックの付加されたタッチパネルが登場するであろうが、今日のタッチパネルの拡張という点においてTouchplatesは静的な触覚フィードバックを付加することができる。また、Touchplatesは安く、容易に製造が可能である。
 
 %4.7
 \subsection{PhotoelasticTouch: Transparent Rubbery Tangible Interface Using an LCD and Photoelasticity\cite{Sato:2009}}
-佐藤らは、液晶ディスプレイ、弾性体、カメラを用いて、ユーザがディスプレイ上の弾性体をタッチした際の圧力、タッチ方向をカメラにより検出するシステムPhotoelasticTouch。
-具体的には、液晶ディスプレイの偏光と弾性体の光弾性（弾性体が圧力を受け変形した際に偏光の性質を変化させる特性）を利用し、液晶ディスプレイが発した光をカメラで検出することにより、タッチの圧力、方向を検出した。
-ユースケースとして、タッチディスプレイにおける3D操作やタッチ圧力により筆の太さが変わるペイントアプリケーションを示した。
-
-タッチパネルにオブジェクト（弾性体）を付けている点で関連する。
-被引用論文に面白いものがないか調べたい。
 
 %4.8
 \subsection{FingerFlux: Near-surface Haptic Feedback on Tabletops\cite{Weiss:2011}}
-Weissらは、テーブルトップに電磁石のアレイを敷き、ユーザの指先に電磁石を装着することにより、ユーザがテーブルトップをタッチする際に（ユーザの指がテーブルトップに触れる前に）磁力フィードバックを与えるシステムを提案した。
-このシステムを用いて、アイズフリーにおいてテーブルトップ上のボタンをタッチする実験を行った。
-実験の結果、本システムを用いることにより、アイズフリーにおいてバーチャルボタンにタッチする際のドリフト（ボタンとタッチテントのズレ）が大幅に減少することが分かった。
-
-アイズフリーにおけるタッチ精度の向上を目的とする点で、我々の研究と同じである。見ながらのタッチ、アイズフリーにおけるタッチの双方について実験を行い結果について考察しているので、実験設計や結果の分析方法を参考にしたい。
 
 %4.9
 \subsection{LiquiTouch: Liquid As a Medium for Versatile Tactile Feedback on Touch Surfaces\cite{Richter:2013}}
-Richterらは、ユーザがタッチスクリーンをタッチした際にユーザの指に水流を当てることにより、触覚フィードバックを与えるシステムLiquiTouchを提案した。
-液晶ディスプレイ、静電容量式タッチパネル、水圧を制御可能なポンプ、ポンプの位置を制御するためのロボットアームを用いてプロトタイプを作成した。
-ただし、実験を行ってはいない。
-ユースケースとして、水を使用しても安全などの点で実用上問題ない場面（屋外の複数人が使用する大画面ディスプレイ、運動場やスイミングプール）を示した。
 
-<<<<<<< HEAD
-`タッチパネル'において`触覚'を与えている点で関連する。
-比較的新しい論文なので、関連研究を詳しく読みたい。
-=======
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=8cm]{figure6.eps}
-  \caption{水流による触覚フィードバックシステムLiquiTouch}
-  \end{center}
-\end{figure}
->>>>>>> kawabata
 
 %5
 \section{今後の予定}
