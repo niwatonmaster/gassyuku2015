@@ -1,0 +1,74 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{WWVB11}
+
+\bibitem[Kin12]{Kincaid:2012:TGT:2377916.2377963}
+Robert Kincaid.
+\newblock Tactile guides for touch screen controls.
+\newblock In {\em Proceedings of the 26th Annual BCS Interaction Specialist
+  Group Conference on People and Computers}, BCS-HCI '12, pp. 339--344,
+  Swinton, UK, UK, 2012. British Computer Society.
+
+\bibitem[KIP13]{Kim:2013}
+Seung-Chan Kim, Ali Israr, and Ivan Poupyrev.
+\newblock Tactile rendering of 3d features on touch surfaces.
+\newblock In {\em Proceedings of the 26th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '13, pp. 531--538, New York, NY,
+  USA, 2013. ACM.
+
+\bibitem[KMW13]{Kane:2013:TLT:2513383.2513442}
+Shaun~K. Kane, Meredith~Ringel Morris, and Jacob~O. Wobbrock.
+\newblock Touchplates: Low-cost tactile overlays for visually impaired touch
+  screen users.
+\newblock In {\em Proceedings of the 15th International ACM SIGACCESS
+  Conference on Computers and Accessibility}, ASSETS '13, pp. 22:1--22:8, New
+  York, NY, USA, 2013. ACM.
+
+\bibitem[RMS13]{Richter:2013}
+Hendrik Richter, Felix Manke, and Moriel Seror.
+\newblock Liquitouch: Liquid as a medium for versatile tactile feedback on
+  touch surfaces.
+\newblock In {\em Proceedings of the 7th International Conference on Tangible,
+  Embedded and Embodied Interaction}, TEI '13, pp. 315--318, New York, NY, USA,
+  2013. ACM.
+
+\bibitem[SMKF09]{Sato:2009}
+Toshiki Sato, Haruko Mamiya, Hideki Koike, and Kentaro Fukuchi.
+\newblock Photoelastictouch: Transparent rubbery tangible interface using an
+  lcd and photoelasticity.
+\newblock In {\em Proceedings of the 22Nd Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '09, pp. 43--50, New York, NY, USA,
+  2009. ACM.
+
+\bibitem[WWVB11]{Weiss:2011}
+Malte Weiss, Chat Wacharamanotham, Simon Voelker, and Jan Borchers.
+\newblock Fingerflux: Near-surface haptic feedback on tabletops.
+\newblock In {\em Proceedings of the 24th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '11, pp. 615--620, New York, NY,
+  USA, 2011. ACM.
+
+\bibitem[YTH{\etalchar{+}}11]{Yu:2011:CGE:2047196.2047243}
+Neng-Hao Yu, Sung-Sheng Tsai, I-Chun Hsiao, Dian-Je Tsai, Meng-Han Lee, Mike~Y.
+  Chen, and Yi-Ping Hung.
+\newblock Clip-on gadgets: Expanding multi-touch interaction area with
+  unpowered tactile controls.
+\newblock In {\em Proceedings of the 24th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '11, pp. 367--372, New York, NY,
+  USA, 2011. ACM.
+
+\bibitem[ZPS{\etalchar{+}}13]{Zhang:2013}
+Cheng Zhang, Aman Parnami, Caleb Southern, Edison Thomaz, Gabriel Reyes, Rosa
+  Arriaga, and Gregory~D. Abowd.
+\newblock Backtap: Robust four-point tapping on the back of an off-the-shelf
+  smartphone.
+\newblock In {\em Proceedings of the Adjunct Publication of the 26th Annual ACM
+  Symposium on User Interface Software and Technology}, UIST '13 Adjunct, pp.
+  111--112, New York, NY, USA, 2013. ACM.
+
+\bibitem[ZRB13]{Zimmermann:2014}
+Simone Zimmermann, Sonja R\"{u}melin, and Andreas Butz.
+\newblock I feel it in my fingers: Haptic guidance on touch surfaces.
+\newblock In {\em Proceedings of the 8th International Conference on Tangible,
+  Embedded and Embodied Interaction}, TEI '14, pp. 9--12, New York, NY, USA,
+  2013. ACM.
+
+\end{thebibliography}

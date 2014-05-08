@@ -1,0 +1,61 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2013/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 4_30.aux
+The style file: jalpha.bst
+Database file #1: shokunyu.bib
+I was expecting a `,' or a `}'---line 175 of file shokunyu.bib
+ : @inproceedings{TEI 
+ :                    2014,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 193 of file shokunyu.bib
+ : @inproceedings{UIST 
+ :                     2013,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 212 of file shokunyu.bib
+ : @inproceedings{UIST 
+ :                     2013,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 9 entries,
+            3087 wiz_defined-function locations,
+            725 strings with 7514 characters,
+and the built_in function-call counts, 6092 in all, are:
+= -- 604
+> -- 252
+< -- 10
++ -- 96
+- -- 96
+* -- 383
+:= -- 851
+add.period$ -- 36
+call.type$ -- 9
+change.case$ -- 71
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 294
+empty$ -- 446
+format.name$ -- 139
+if$ -- 1392
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 49
+num.names$ -- 27
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 80
+quote$ -- 0
+skip$ -- 303
+stack$ -- 0
+substring$ -- 338
+swap$ -- 86
+text.length$ -- 10
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 72
+warning$ -- 0
+while$ -- 53
+width$ -- 13
+write$ -- 147
+is.kanji.str$ -- 124
+(There were 3 error messages)
